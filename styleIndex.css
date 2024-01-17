@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*box-sizing: border-box;*/
+
+}
+
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://c.wallhere.com/photos/80/29/cats_dog_animals_hugging-1961271.jpg!d);
+}
+
+h1 {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow:0px 0px 47px 36px rgba(255,255,255,0.19);
+    -moz-box-shadow: 0px 0px 47px 36px rgba(255,255,255,0.19);
+    box-shadow: 0px 0px 47px 36px rgba(255,255,255,0.19);
+    background: linear-gradient(90deg, rgba(145, 104, 20, 0.4598214285714286) 16%, rgba(121, 73, 9, 0.6895133053221288) 72%);
+
+}
+
+label {
+    color: rgba(255, 255, 255, 0.71);
+}
+
+button {
+    cursor: pointer;
+    transform: translate(1%, 20%);
+
+}
+
+.esqueceuSenha {
+    transform: translate(-5%, 50%);
+}
